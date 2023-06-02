@@ -1,0 +1,511 @@
+@import url(./variable.css);
+
+body {
+  font-family: var(--fontRoboto);
+}
+
+main {
+  width: 100%;
+}
+
+.about {
+  padding: 0px 56px;
+  margin-top: 187px;
+}
+
+.about .aboutText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--ultiSize);
+  line-height: 64px;
+  text-align: center;
+  color: var(--textColor);
+  margin-bottom: 24px;
+}
+
+.about .aboutDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--mediumSize);
+  line-height: 26px;
+  text-align: center;
+  color: var(--textColor);
+  margin-bottom: var(--ultiSize);
+}
+
+.about .card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--largeSize);
+}
+
+.about .card-body .card {
+  width: calc(33% - 12px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 64px var(--largeSize);
+  background: var(--whiteColor);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.about .card-body .card .cardImg {
+  max-width: 104px;
+  margin-bottom: var(--largeSize);
+}
+
+.about .card-body .card .cardText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--largeSize);
+  line-height: var(--megaSize);
+  text-align: center;
+  color: var(--textColor);
+  margin-bottom: 16px;
+}
+
+.about .card-body .card .cardDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--mediumSize);
+  line-height: 26px;
+  text-align: center;
+  color: var(--textColor);
+}
+
+.users {
+  width: 100%;
+  padding: 189px 118px 184px 56px;
+}
+
+.users .usersCardBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.users .usersCardBody .usersCardOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.users .usersCardBody .usersCardImg {
+  margin-bottom: var(--largeSize);
+}
+
+.users .usersCardBody .usersCardText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--ultiSize);
+  line-height: 64px;
+  color: var(--textColor);
+  margin-bottom: var(--largeSize);
+}
+
+.users .usersCardBody .usersCardDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--mediumSize);
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+}
+
+.users .usersCardBody .usersCardOne .usersCardRight .usersCardRightTable {
+  padding: var(--megaSize) 40px;
+  background: var(--whiteColor);
+  border: 4px solid var(--textColor);
+  border-radius: var(--smallSize);
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 484px;
+}
+.usersCardRightTable .tableText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--megaSize);
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-bottom: 28px;
+}
+
+.usersCardRightTable .tableCard {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.tableCardTextBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tableCardText {
+  font-style: italic;
+  font-weight: 100;
+  font-size: var(--largeSize);
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-bottom: 4px;
+}
+
+.tableCardTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  color: #66645e;
+}
+
+.usersCardBody .b {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  margin-top: 131px;
+}
+
+.headText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-top: var(--largeSize);
+}
+
+.sendData {
+  display: flex;
+  gap: 100px;
+}
+
+.headText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--darkColor);
+}
+
+.dataStorage {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--largeSize);
+  line-height: var(--megaSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-top: 12px;
+}
+
+.goButton {
+  width: 404px;
+  height: 56px;
+  background: var(--textColor);
+  border-radius: var(--smallSize);
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--largeSize);
+  line-height: var(--megaSize);
+  letter-spacing: -0.02em;
+  color: var(--whiteColor);
+  border: 0;
+  margin-top: 44px;
+}
+
+.c {
+  margin-top: 171px;
+}
+
+.newTableBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.newTableTop {
+  width: 631px;
+  height: 164px;
+  background: var(--whiteColor);
+  border: 4px solid var(--textColor);
+  border-radius: var(--smallSize);
+  padding: 24px 62.5px 48px 59.5px;
+}
+
+.newTableBottom {
+  display: flex;
+  gap: 12px;
+  margin-top: 13px;
+}
+
+.newTableOne {
+  width: 381px;
+  height: 288px;
+  background: #f3f0ea;
+  border: 4px solid var(--textColor);
+  border-radius: var(--smallSize);
+  padding: 32px 40px;
+}
+
+.newTableRight {
+  width: 240px;
+  height: 288px;
+  background: var(--whiteColor);
+  border: 4px solid var(--activeColor);
+  border-radius: 16px;
+  padding: var(--largeSize);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lookingText {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+}
+
+.writeText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--mediumSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+}
+
+.newHeadText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shareButton {
+  width: 79px;
+  height: 32px;
+  background: var(--activeColor);
+  border-radius: 40px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--whiteColor);
+}
+
+.applacationText {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-bottom: var(--largeSize);
+}
+
+.applacationCard {
+  display: flex;
+  align-items: center;
+  gap: var(--smallSize);
+  margin-bottom: var(--largeSize);
+}
+
+.applacationCardImg {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.applacationCardText {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+}
+
+.userImage {
+  width: 72px;
+  height: 72px;
+  margin-bottom: var(--smallSize);
+}
+
+.userName {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: var(--largeSize);
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+  color: var(--textColor);
+}
+
+.userMeslek {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  text-align: center;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--smallSize);
+  color: var(--darkColor);
+}
+
+.userCommit {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  width: 100%;
+  margin-bottom: var(--smallSize);
+}
+
+.profileButton {
+  width: 192px;
+  min-height: 44px;
+  background: var(--textColor);
+  border-radius: var(--smallSize);
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: var(--whiteColor);
+}
+
+.enterPriseShare {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.enterText {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: var(--textColor);
+  margin-bottom: 24px;
+}
+
+.enterText2 {
+  margin-bottom: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--mediumSize);
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+}
+
+.enterCardBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--largeSize);
+}
+
+.enterCard {
+  width: 427px;
+  height: 216px;
+  background: var(--whiteColor);
+  padding: 24px 24px 28px 24px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: var(--smallSize);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: start;
+}
+
+.enterCardTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--mediumSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-bottom: var(--smallSize);
+}
+
+.enterCardDescription {
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--textColor);
+  margin-bottom: var(--largeSize);
+}
+
+.Cardbottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.enterCardButton {
+  width: 68px;
+  height: 32px;
+  background: var(--activeColor);
+  border-radius: 40px;
+  border: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--smallSize);
+  line-height: var(--largeSize);
+  letter-spacing: -0.02em;
+  color: var(--whiteColor);
+}
+
+.cardAppareance {
+  font-style: italic;
+  font-weight: 100;
+  font-size: var(--smallSize);
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.02em;
+  color: #303031;
+}
+
+.moreButton {
+  width: 134px;
+  height: 64px;
+  background: var(--textColor);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--mediumSize);
+  line-height: 24px;
+  text-align: center;
+  color: var(--whiteColor);
+  border: 0;
+  margin-top: 64px;
+}
+
+

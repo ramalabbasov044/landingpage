@@ -1,0 +1,89 @@
+@media screen and (max-width: 1343px) {
+  .headerBottom {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .users {
+    display: none;
+  }
+  .enterPriseShare {
+    padding: 150px 50px;
+  }
+  .footerTop {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+
+.menuicon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    display: none;
+  }
+  .menuicon {
+    display: block;
+    width: 37px;
+    height: 28px;
+  }
+  .informationRight img {
+    width: 100vw;
+    padding: 0px 18% 20px 18%;
+  }
+  .informationText {
+    font-size: 58px !important;
+  }
+  .informationDescription {
+    font-size: 17px !important;
+  }
+  .informationButton {
+  }
+  .footerTopRight img {
+    width: 100vw;
+    padding: 0px 18% 20px 18%;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .footerBottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about .card-body .card {
+    min-width: 226px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logoContent p {
+    font-size: 22px;
+  }
+  .informationText {
+    font-size: 40px !important;
+    line-height: 45px !important;
+  }
+
+  .informationDescription {
+    font-size: 13px;
+  }
+  footer nav ul li a {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .enterCard {
+    width: 327px;
+  }
+  footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .logoContent p {
+    font-size: 17px !important;
+  }
+}

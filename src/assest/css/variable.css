@@ -1,0 +1,23 @@
+:root {
+  /* Fonts */
+  --fontRoboto: "Roboto", sans-serif;
+  --fontOpenSans: "Open Sans", sans-serif;
+
+  /* Color */
+  --bodyColor: #f9f9f9;
+  --lightColor: #e7e7e7;
+  --textColor: #303031;
+  --activeColor: #71a894;
+  --darkColor: #66645e;
+  --whiteColor: #ffffff;
+
+  /* Size */
+  --smallSize: 16px;
+  --mediumSize: 18px;
+  --largeSize: 24px;
+  --megaSize: 32px;
+  --ultiSize: 48px;
+
+  /* Padding */
+  --mediumPadding: 31px;
+}
