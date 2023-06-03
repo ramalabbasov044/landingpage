@@ -8,7 +8,9 @@ header {
   display: flex;
   flex-direction: column;
 }
-
+.menuicon {
+  display: none;
+}
 .headerTop {
   display: flex;
   justify-content: space-between;
